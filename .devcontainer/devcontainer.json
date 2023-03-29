@@ -1,5 +1,4 @@
-// For format details, see https://aka.ms/devcontainer.json. For config options, see the
-// README at: https://github.com/devcontainers/templates/tree/main/src/alpine
+// For format details, see https://aka.ms/devcontainer.json. 
 {
 	"name": "dev",
 	"dockerComposeFile": "docker-compose.yml",
@@ -7,5 +6,5 @@
 	"workspaceFolder": "/workspace",
 	"shutdownAction": "stopCompose",
 	"remoteUser": "root",
-	"postCreateCommand": "pip install -r requirements.txt"
+	"postCreateCommand": "pip install -r .devcontainer/requirements.txt"
 }
