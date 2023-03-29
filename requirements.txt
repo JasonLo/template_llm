@@ -1,0 +1,4 @@
+ipywidgets
+gradio
+nltk
+black
